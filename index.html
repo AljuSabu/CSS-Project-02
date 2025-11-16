@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>CSS Project 02</title>
 </head>
-<body>
-    <nav class=" 2xl:h-27 xl:h-25 lg:h-20  flex justify-between p-3 2xl:px-40 xl:px-30 lg:px-25 ">
-        <div class=" flex 2xl:gap-15 xl:gap-13 lg:gap-10 ">
-        <div class=" 2xl:text-[50px] xl:text-[40px] lg:text-[30px]  font-bold text-fuchsia-900 transition-all duration-500 ease-in-out">Logo</div>
-            <ul class=" flex justify-center items-center font-semibold 2xl:gap-10 xl:gap-7 lg:gap-5  2xl:text-lg xl:text-sm text-xs text-stone-400 2xl:mb-0 mb-2">
+<body class="bg-neutral-100/80">
+    <nav class=" 2xl:h-27 xl:h-25 lg:h-20 md:h-26 flex justify-between p-3 2xl:px-40 xl:px-30 lg:px-25 md:px-20">
+        <div class=" flex 2xl:gap-15 xl:gap-8 lg:gap-10 ">
+        <div class=" 2xl:text-[55px] xl:text-[45px] lg:text-[35px] md:text-[55px] text-2xl font-bold text-fuchsia-900 transition-all duration-500 ease-in-out 2xl:mt-1 xl:mt-2 ">Logo</div>
+            <ul class="hidden lg:flex justify-center items-center font-semibold 2xl:gap-10 xl:gap-7 lg:gap-5 2xl:text-lg xl:text-base text-xs text-stone-400 2xl:mt-4 xl:mt-5 mb-2">
                 <li class="font-bold text-black">Home</li>
                 <li>About</li>
                 <li>Services</li>
@@ -19,11 +19,18 @@
                 <li>Pricing</li>
             </ul>
         </div>
-        <button class="flex justify-center items-center bg-fuchsia-700 rounded-lg 2xl:h-[45px] xl:h-[40px] lg:h-[35px]  2xl:w-[130px] xl:w-[110px] lg:w-[90px] text-white 2xl:mt-5 xl:mt-4 lg:mt-3  2xl:text-base xl:text-sm text-xs">Contact Us</button>
+        <button class="hidden lg:flex justify-center items-center bg-purple-800 rounded-lg 2xl:h-[45px] xl:h-[40px] lg:h-[35px]  2xl:w-[130px] xl:w-[110px] lg:w-[90px] text-white 2xl:mt-5 xl:mt-6 lg:mt-3 2xl:text-base xl:text-sm text-xs">Contact Us</button>
+        <i class=" lg:!hidden p-2 mt-3 text-5xl fa-solid fa-bars"></i>
     </nav>
 
-    <div class="">
-
+    <div class=" lg:flex lg:mx-25 md:mx-15 2xl:gap-10 2xl:mt-10 xl:mt-9 md:mt-15">
+        <img class="lg:hidden w-full" src="images/project image.jpeg" alt="image">
+        <div class="w-160">
+            <div class=" lg:mr-10 2xl:mt-15 lg:mt-0 md:mt-5 2xl:p-15 lg:p-10 md:p-10 text-purple-950 text-[40px] sm:text-[70px] md:text-[55px]/20 lg:text-[45px]/20 xl:text-[50px]/16 2xl:text-7xl/20 lg:ml-0 md:ml-8 transition-all duration-500 ease-in-out tracking-wide font-bold">We Help You <p class=" inline text-purple-700">Crush</p> Your Competition</div>
+            <div class=" 2xl:text-2xl xl:text-xl md:text-[24px] 2xl:px-15 xl:px-10 md:pl-6 lg:ml-0 md:ml-12 2xl:w-140 xl:w-110 text-gray-600 subpixel-antialiased">Build trust to connect your brand to billions of users and grow your revenue through SEO</div>
+            <button class=" flex justify-center items-center bg-purple-800 rounded-xl text-white 2xl:text-xl text-lg 2xl:mt-10 xl:mt-11 mt-15 lg:mx-15 md:mx-59 h-14 w-50">See our services</button>
+        </div>
+        <img class="hidden lg:flex 2xl:h-200 xl:h-135 h-140" src="images/project image.jpeg" alt="image">
     </div>
 </body>
 </html>
